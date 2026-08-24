@@ -29,7 +29,7 @@ contract ZkMinimalAccountTest is Test, ZkSyncChainChecker {
 
     uint256 constant AMOUNT = 1e18;
     bytes32 constant EMPTY_BYTES32 = bytes32(0);
-    address constant ANVIL_DEFAULT_ACCOUNT = 0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266;
+    address constant ANVIL_DEFAULT_ACCOUNT = 0xf39Fd6e51xxxxxxxxxxxxxxxxxxxxxxxxx;
 
     function setUp() public {
         minimalAccount = new ZkMinimalAccount();
