@@ -31,7 +31,7 @@ contract HelperConfig is Script {
     address constant BURNER_WALLET;
     uint256 constant ARBITRUM_MAINNET_CHAIN_ID = 42_161;
     uint256 constant ZKSYNC_MAINNET_CHAIN_ID = 324;
-    // address constant FOUNDRY_DEFAULT_WALLET = 0x1804c8AB1F12E6bbf3894d4083f33e07309d1f38;
+    // address constant FOUNDRY_DEFAULT_WALLET = 0x1804c8ABxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
     address constant ANVIL_DEFAULT_ACCOUNT;
 
     NetworkConfig public localNetworkConfig;
